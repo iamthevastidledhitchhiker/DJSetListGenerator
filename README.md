@@ -42,17 +42,18 @@ d.set_list
 In order for the generator to work properly, all seed_ arguments passed must be
 in the form of a list.
 
-To retrieve a single artist id: search_for_artistID(search_string)
-To retrieve a single track id: search_for_trackID(search_string)
+* To retrieve a single artist id: `search_for_artistID(search_string)`
+
+* To retrieve a single track id: `search_for_trackID(search_string)`
 
 (When searching for a track, be sure to use proper spelling and include the artist's
 name to ensure it retrieves the correct track)
 
 ### Current Issues
 Some of the following bugs have been identified:
-Using more than 2 seed_genres at a time can produce errors
-Using more than 2 seed_artists at a time can produce errors
-Using more than 3 seed_tracks at a time can produce errors
+* Using more than 2 seed_genres at a time can produce errors
+* Using more than 2 seed_artists at a time can produce errors
+* Using more than 3 seed_tracks at a time can produce errors
 
 ### Other methods
 As of V_0_0_9, the generator does not utilize mass data scraped from MixesDB,
