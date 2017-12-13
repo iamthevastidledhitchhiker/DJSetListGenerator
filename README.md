@@ -59,9 +59,9 @@ Some of the following bugs have been identified:
 ### Using Recurrent Neural Networks
 Located within 'lai_rnn_narrative' there is experimental code to produce set lists with RNNs.
 .ipynb files are codes for:
-    * parsing tracklist and feature vectors,
-    * train narrative model of vectors by RNN(LSTM) by keras
-    * generate tracklist by predict vectors using trained model and select nearest neighbor from random samples (and some testing blocks)
+* parsing tracklist and feature vectors,
+* training narrative model of vectors by RNN(LSTM) using keras
+* generating tracklist by predict vectors using trained model and select nearest neighbor from random samples (and some testing blocks)
 
 Currently all_rnn.ipynb is not working.
 .h5 files are the trained model.
