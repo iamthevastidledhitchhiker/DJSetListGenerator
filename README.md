@@ -55,6 +55,19 @@ Some of the following bugs have been identified:
 * Using more than 2 seed_artists at a time can produce errors
 * Using more than 3 seed_tracks at a time can produce errors
 
+
+### Using Recurrent Neural Networks
+Located within 'lai_rnn_narrative' there is experimental code to produce set lists with RNNs.
+.ipynb files are codes for:
+    * parsing tracklist and feature vectors,
+    * train narrative model of vectors by RNN(LSTM) by keras
+    * generate tracklist by predict vectors using trained model and select nearest neighbor from random samples (and some testing blocks)
+
+Currently all_rnn.ipynb is not working.
+.h5 files are the trained model.
+Training session can be skipped by calling model.load block and not calling training blocks
+some generated example can be found in .txt
+
 ### Other methods
 As of V_0_0_9, the generator does not utilize mass data scraped from MixesDB,
 Discogs, or Spotify. The additional .ipynb files are included for posterity's sake.
