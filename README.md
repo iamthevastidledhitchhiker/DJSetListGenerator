@@ -13,7 +13,7 @@ Link to setlists: https://soundcloud.com/bergizabot/sets
 ### Spotify API
 
 The `SetListGenerator_Spotify` class is the primary component to drive
-track generation.
+track generation. It can be found within 'SetlistGenerator_SpotifyAPI.ipynb'
 
 ```python
 d = SetlistGenerator_Spotify(seed_tracks=[list_of_track_ids],
@@ -38,3 +38,7 @@ while len(d.set_list) < 10:
 
 d.set_list
 ```
+
+### Other methods
+As of V_0_0_9, the generator does not utilize mass data scraped from MixesDB,
+Discogs, or Spotify. The additional .ipynb files are included for posterity's sake.
