@@ -69,5 +69,7 @@ Training session can be skipped by calling model.load block and not calling trai
 some generated example can be found in .txt
 
 ### Other methods
-As of V_0_0_9, the generator does not utilize mass data scraped from MixesDB,
-Discogs, or Spotify. The additional .ipynb files are included for posterity's sake.
+As of V_0_0_9, the `SetListGenerator_Spotify` generator does not utilize mass data scraped from MixesDB,
+Discogs, or Spotify. However, the experimental code in 'lai_rnn_narrative' **does** use this data.
+While the results are still somewhat opaque in their selection criteria, this section of the system is still
+valuable and thus has been included in the current version. 
